@@ -1,6 +1,8 @@
 #ifndef CINI_LIBRARY_H
 #define CINI_LIBRARY_H
 
-void hello(void);
+#include "datastructs-c/src/hashtable.h"
+
+hashtable *ini_parser(const char *file);
 
 #endif
